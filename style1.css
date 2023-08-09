@@ -37,7 +37,7 @@ html{
     margin: 15px 4px;
     height: 54px;
     padding: 9px 14px;
-
+    border-radius: 45px;
 }
 
 /*  Navigation Bar : List Styling */
@@ -204,18 +204,14 @@ html{
     position: absolute;
     background: url("../bg.jpg");
     width: 100%;
-    height: 38%;
+    height: 35%;
     z-index: -1;
     opacity: 0.4;
-   
-
 }
 
 /* Contact Section */
 
-#contact{
-  position: relative;
-}
+
 
 #contact::before{
  content: "";
@@ -226,6 +222,7 @@ html{
  opacity: 0.7;
  background: url("contact.jpg")no-repeat center center/cover;
  margin: 10px;
+ height: 527px;
 }
 
 footer{
@@ -258,6 +255,3 @@ footer{
     font-size: 1.3rem;
     font-family: 'Bree Serif',serif;
 }
-
-
-
