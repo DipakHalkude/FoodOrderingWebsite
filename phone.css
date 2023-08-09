@@ -4,17 +4,24 @@
     flex-direction: column;
 }
 
+
 #navbar ul li a{
     margin: -37px -9px;
     padding: 3px 5px;
     width: 105px;
     text-align: center;
     font-size: 1rem;
+    display: block;
+    margin-top: -45px;
+}
+
+#navbar{
+    height:100px;
 }
 
 #logo img{
     width: auto;
-    
+    margin-top: -32px;
 }
 /* Home Section */
 
@@ -48,6 +55,11 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+#client-section::before{
+    height: 45%;
+}
+
 
 #clients img{
     width: 66px;
@@ -97,4 +109,3 @@
 #services .box img{
     height: 113px;
 }
-
